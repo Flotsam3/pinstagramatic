@@ -33,3 +33,26 @@ body {
 	padding-left: 10px;
 	border-left: 3px solid grey;
 }
+
+@media only screen and (min-width:400px) and (max-width: 1024px) {
+	.container {
+		display: grid;
+		grid-template-columns: 45% 45%;
+		grid-template-rows: auto;
+		gap: 20px;
+	}
+}
+
+@media only screen and (min-width:1025px) {
+
+	.body {
+		width: 80vw;
+	}
+
+	.container {
+		display: grid;
+		grid-template-columns: 23% 23% 23% 23%;
+		grid-template-rows: auto;
+		gap: 20px;
+	}
+}
